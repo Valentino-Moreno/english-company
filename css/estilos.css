@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif; }
+
+header nav .hea img {
+  width: 160px; }
+
+footer img {
+  width: 130px; }
+
+#niveles, #niveles h1, #niveles p, #nivel, #nivel .niv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center; }
+
+footer {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #FFEAAE; }
+  footer img {
+    padding-bottom: 25px; }
+  footer p {
+    font-size: 1.2em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center; }
+  footer .redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around; }
+    footer .redes a {
+      font-size: 1.2em;
+      padding: 5px;
+      display: flex;
+      align-content: center;
+      align-items: center;
+      text-decoration: none;
+      color: #6C0E23; }
+
+@media (min-width: 1024px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    footer .redes {
+      padding: 0px 100px 0px 20px; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif; }
+
+header nav .hea img {
+  width: 160px; }
+
+footer img {
+  width: 130px; }
+
+#niveles, #niveles h1, #niveles p, #nivel, #nivel .niv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center; }
+
+header nav .hea {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFEAAE;
+  padding: 10px; }
+  header nav .hea img {
+    padding-left: 10px; }
+  header nav .hea .items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    header nav .hea .items a {
+      font-size: 1.2em;
+      color: #6C0E23;
+      font-weight: bold;
+      transition: all 0.5s; }
+      header nav .hea .items a:hover {
+        font-size: 1.25em;
+        text-shadow: 0 0 15px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 2px 1px 18px #C42021; }
+
+@media (min-width: 1024px) {
+  header nav .hea .items {
+    display: flex;
+    flex-direction: row; }
+  header nav .hea .pad {
+    padding-left: 20em; } }
+
+header nav .hea img {
+  width: 160px; }
+
+footer img {
+  width: 130px; }
+
+#niveles, #niveles h1, #niveles p, #nivel, #nivel .niv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center; }
+
+#inicio {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 225px 20px 225px 20px; }
+  #inicio h1 {
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    border-bottom: solid 4px rgba(35, 79, 175, 0.911);
+    width: 80%; }
+  #inicio p {
+    color: white;
+    text-align: center;
+    font-size: 1.6em;
+    padding-top: 5px; }
+
+#nosotros {
+  background-color: #031D44;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 50px 10px 50px 10px; }
+  #nosotros .info-nosotros {
+    background-color: #04395E;
+    border-radius: 15px;
+    width: 80%;
+    min-height: 45vh;
+    padding: 30px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    box-shadow: 5px 5px 20px;
+    margin: 20px; }
+    #nosotros .info-nosotros p {
+      color: white;
+      font-size: 1.4em; }
+    #nosotros .info-nosotros .ico {
+      font-size: 5.5em; }
+
+@media (min-width: 1024px) {
+  #inicio h1 {
+    font-size: 6em; }
+  #inicio p {
+    color: white;
+    text-align: center;
+    font-size: 3.2em;
+    padding-top: 5px; }
+  #nosotros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    #nosotros .info-nosotros {
+      max-width: 15em;
+      min-height: 30em; } }
+
+header nav .hea img {
+  width: 160px; }
+
+footer img {
+  width: 130px; }
+
+#niveles, #niveles h1, #niveles p, #nivel, #nivel .niv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center; }
+
+header nav .hea img {
+  width: 160px; }
+
+footer img {
+  width: 130px; }
+
+#niveles, #niveles h1, #niveles p, #nivel, #nivel .niv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center; }
+
+#metodologias {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 180px 10px 200px 10px; }
+  #metodologias h1 {
+    color: #105b91;
+    font-weight: bold;
+    font-size: 3.4em;
+    padding: 10px;
+    text-align: center;
+    background-color: #abbcc92c;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px; }
+  #metodologias p {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1.7em;
+    background-color: #04395e6c;
+    border-radius: 10px;
+    padding: 15px; }
+
+#metodos {
+  background-color: #031D44;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding: 20px; }
+  #metodos .metodo {
+    background-color: #04395E;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 20px;
+    padding: 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin: 20px;
+    min-height: 55vh; }
+    #metodos .metodo h2 {
+      color: white;
+      text-align: center; }
+    #metodos .metodo p {
+      color: white;
+      font-size: 1.2em;
+      text-align: center; }
+
+@media (min-width: 1024px) {
+  #metodologias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center; }
+    #metodologias h1 {
+      font-size: 5.6em;
+      max-width: 80%; }
+    #metodologias p {
+      font-size: 3.2em;
+      max-width: 80%; }
+  #metodos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; }
+    #metodos .metodo {
+      width: 40%;
+      height: 65vh; } }
+
+header nav .hea img {
+  width: 160px; }
+
+footer img {
+  width: 130px; }
+
+#niveles, #niveles h1, #niveles p, #nivel, #nivel .niv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center; }
+
+#niveles {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/5792852/pexels-photo-5792852.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 20px; }
+  #niveles h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 5em; }
+  #niveles p {
+    color: white;
+    font-size: 1.8em; }
+
+#nivel {
+  background-color: #031D44;
+  padding: 20px 40px; }
+  #nivel .niv {
+    background-color: #04395E;
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    height: 20vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; }
+    #nivel .niv h3 {
+      font-size: 2em; }
+    #nivel .niv p {
+      font-size: 1.2em; }
+
+@media (min-width: 1024px) {
+  #nivel {
+    display: flex;
+    flex-direction: row; }
+    #nivel .niv {
+      width: 400px; } }
